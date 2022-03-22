@@ -13,7 +13,7 @@ const Product = (props) => {
                 <p><small>Ratings:{ratings} star</small></p>
 
             </div>
-            <button className='button-cart'>
+            <button onClick={() => props.handlerAddToCart(props.product)} className='button-cart'>
                 <p>Add to cart</p>
             </button>
         </div>
