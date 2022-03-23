@@ -12,7 +12,7 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .product-name{
     font-family: 'Lato';
@@ -40,6 +40,12 @@
     border: none;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-cart .btn-text{
+    margin-right: 5px;
 }
 .button-cart:hover{
     background-color: orange;
